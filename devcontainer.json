@@ -7,7 +7,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "Microsoft.livepreview"
+                "ms-vscode.live-server"
             ]
         }
     }
