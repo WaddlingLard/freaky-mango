@@ -1,0 +1,14 @@
+{
+    "name": "Codespace for Lab 7",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+    "remoteUser": "Me",
+    "overrideCommand": false,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Microsoft.livepreview"
+            ]
+        }
+    }
+}
