@@ -1,24 +1,19 @@
-# Web Dev Starter Code
+# Lab 7
 
 ## Overview
 
-TODO: Write a project description
+This is a faithful recreation of the provided template in the Lab! I enjoyed understanding the layouts and this motivates me to make something of my own. I'd like to start making a custom website once this course is done! :)
+
+In my code I actually have both solutions implemented for flex and grid but I decided to use a flex for the article. The photos was more tricky using a flex as I'm not sure how to setup gaps so I decided on using a grid template.
+
+Steps to run the website:
+1. To get this website running, first download this repository to your local directory.
+2. Navigate to where it is located on your computer and then open VSCode.
+3. Then, using Live Preview, use the key combination ctrl+shift+p and use the command 'Live Preview: Start Server'.
+4. If you want to access the website via a web browser. User the url 'localhost:3000' to view the website.
+
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+Random text for more content: https://randomtextgenerator.com/
+MDN Webdocs: https://developer.mozilla.org/

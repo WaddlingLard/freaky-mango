@@ -25,11 +25,33 @@ img {
 
   /* Opting for a flex solution */
   display: flex;
+
+  /* Grid solution is below */
+  /* display: grid; */
+  /* grid-template-columns: 3fr 1fr; */
+}
+
+/* New rule for article */
+article {
+  padding: 0px 25px 0px 0px;
+
+  /* Making sure article is a larger portion of content */
+  flex: 3;
+}
+
+aside {
+  flex: 1;
 }
 
 nav {
   background-color: #000;
   padding: .5em;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
 
 nav ul {
@@ -39,7 +61,6 @@ nav ul {
 
   /* Rules must be in nav ul as that is the parent to the li but you also want to space them properly */
   display: flex;
-  /* flex-flow: wrap; */
   justify-content:space-between;
 }
 
@@ -54,12 +75,14 @@ nav a {
   margin: 0;
   padding: 0;
 
-  /* Could be correct location */
-  /* display: flex; */
+  /* flex: 1; */
+  /* Grid layout for the photos */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
 }
 
 aside ul li {
-  width: 40%;
   display: inline-block;
 }
 
@@ -78,7 +101,4 @@ li {
     float: left;
     margin: 0px 20px 0px 0px;
 }
-/* 
-nav ul li {
-  display: inline-block;
-} */
+
